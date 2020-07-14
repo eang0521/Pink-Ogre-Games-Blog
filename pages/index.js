@@ -9,10 +9,10 @@ export default function Home({ allPostsData}) {
     return (
 	    <Layout home>
 	    <Head>
-	    <title>{siteTitle}</title>
+	    <title>Pink Ogre Games Blog</title>
 	    </Head>
 	    <section className={utilStyles.headingMd}>
-	    <p>Hi! I am Elijah Ang, a 15-year-old coder, game designer, and musician.</p>
+	    <p>Welcome to the <b>official</b> Pink Ogre Games Blog! We'll write about all kinds of things here, from our favorite board games, to our least favorite game mechanics! We'll post new content as often as possible (hopefully everyday!)</p>
 	    </section>
 	    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 	    <h2 className={utilStyles.headingLg}>Blog</h2>
