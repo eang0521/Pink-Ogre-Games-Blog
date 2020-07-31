@@ -9,17 +9,17 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+          <Layout home>
       <Head>
         <title>Pink Ogre Games Blog</title>
       </Head>
           <Carousel>
           <Carousel.Item>
-          <img
+          <a href="https://www.thegamecrafter.com/games/hoops-"><img
       className="d-block w-100"
       src="/images/Hoops.jpg"
       alt="First slide"
-          />
+          /></a>
           <Carousel.Caption>
           <h3>Hoops!</h3>
           <p>Our first game</p>
@@ -38,11 +38,11 @@ export default function Home({ allPostsData }) {
           </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img
+          <a href="https://thegamecrafter.com/games/space-trader5"><img
       className="d-block w-100"
       src="/images/SpaceTrader.jpg"
       alt="Third slide"
-          />
+          /></a>
 
           <Carousel.Caption style={{backgroundColor: 'rgba(200, 200, 200, 0.5)'}}>
           <h3 style={{color: 'black'}}>Space Trader</h3>
@@ -52,7 +52,7 @@ export default function Home({ allPostsData }) {
           </Carousel>
           <br />
           <Jumbotron fluid style={{padding: 25}}>
-        <h1 style={{textAlign: "center"}}>Pink Ogre Games</h1>
+          <h1 style={{textAlign: "center", fontSize: 50}}>Pink Ogre Games</h1>
         <p style={{textAlign: "center"}}>Welcome to the <b>official</b> Pink Ogre Games Blog! We'll write about all kinds of things here, from our favorite board games, to our least favorite game mechanics! We'll post new content as often as possible (hopefully everyday!)</p>
       </Jumbotron>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
