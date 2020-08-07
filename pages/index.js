@@ -20,8 +20,7 @@ export default function Home({ allPostsData }) {
       </Head>
           <Jumbotron fluid style={{padding: 25}}>
           <h1 style={{textAlign: "center", fontSize: 50}}>Pink Ogre Games</h1>
-          <p style={{textAlign: "center"}}>Welcome to the <b>official</b> Pink Ogre Games Blog! We'll write about all kinds of things he\
-re, from our favorite board games, to our least favorite game mechanics! We'll post new content as often as possible (hopefully everyday!)</p>
+          <p style={{textAlign: "center"}}>Welcome to the <b>official</b> Pink Ogre Games Blog! We'll write about all kinds of things here, from our favorite board games, to our least favorite game mechanics! We'll post new content as often as possible (hopefully everyday!)</p>
                 </Jumbotron>
 <br />
           <Container>
